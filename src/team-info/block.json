@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "version": "1.0.0",
+  "name": "usmb/team-info",
+  "title": "Informations de l'équipe",
+  "description": "Affiche les informations de l'équipe",
+  "category": "text",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "variations": [
+    {
+      "name": "usmb/team-info/referents",
+      "icon": "star-filled",
+      "title": "Référents",
+      "description": "Liste des référents",
+      "attributes": {
+        "title": "Référents",
+        "icon": "star-filled"
+      },
+      "isDefault": true
+    },
+    {
+      "name": "usmb/team-info/trainings",
+      "icon": "flag",
+      "title": "Entrainements",
+      "description": "Liste des entrainements",
+      "attributes": {
+        "title": "Entrainements",
+        "icon": "flag"
+      }
+    },
+    {
+      "name": "usmb/team-info/contacts",
+      "icon": "admin-links",
+      "title": "Contact",
+      "description": "Liste des contacts",
+      "attributes": {
+        "title": "Contact",
+        "icon": "admin-links"
+      }
+    }
+  ],
+  "textdomain": "usmb",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}

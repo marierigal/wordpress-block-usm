@@ -1,0 +1,33 @@
+.wp-block-usmb-team-info {
+  display: flex;
+  gap: 16px;
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--color_content_headings);
+    border-radius: 16px;
+
+    .icon {
+      width: unset;
+      height: unset;
+      color: var(--color_content_background);
+      font-size: 24px;
+    }
+  }
+
+  .content-wrapper {
+    .title {
+      display: flex;
+      align-items: center;
+      height: 48px;
+    }
+
+    .content {
+      list-style: inherit;
+    }
+  }
+}

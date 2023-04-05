@@ -1,1 +1,1 @@
-import './team-referents';
+import './team-info';

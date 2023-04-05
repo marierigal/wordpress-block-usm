@@ -1,1 +1,1 @@
-# gutenberg-plugin-usm
+# wordpress-block-usm

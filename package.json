@@ -1,5 +1,5 @@
 {
-  "name": "gutenberg-plugin-usm",
+  "name": "wordpress-block-usm",
   "version": "0.1.0",
   "description": "Gutenberg custom blocks for USM",
   "author": "Marie Rigal",
@@ -21,7 +21,14 @@
   "devDependencies": {
     "@wordpress/block-editor": "^11.7.0",
     "@wordpress/blocks": "^12.7.0",
+    "@wordpress/data": "^9.0.0",
     "@wordpress/i18n": "^4.30.0",
     "@wordpress/scripts": "^26.1.0"
+  },
+  "dependencies": {
+    "@wordpress/components": "^24.0.0",
+    "@wordpress/core-data": "^6.10.0",
+    "@wordpress/editor": "^13.10.0",
+    "@wordpress/server-side-render": "^4.10.0"
   }
 }

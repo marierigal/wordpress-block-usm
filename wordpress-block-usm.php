@@ -15,6 +15,11 @@
  */
 
 /**
+ * Register blocks
+ */
+include_once( plugin_dir_path( __FILE__ ) . 'build/team-info/index.php' );
+
+/**
  * Load all translations for our plugin from the MO file.
  */
 function usmb_load_textdomain() {
@@ -30,8 +35,6 @@ add_action( 'init', 'usmb_load_textdomain' );
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function usmb_register_blocks() {
-  register_block_type( __DIR__ . '/build/team-referents' );
-
 	if ( function_exists( 'wp_set_script_translations' ) ) {
     /**
      * Passes translations to JavaScript.

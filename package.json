@@ -41,7 +41,7 @@
     "semantic-release": "^21.0.5"
   },
   "dependencies": {
-    "@wordpress/components": "^24.0.0",
+    "@wordpress/components": "^25.1.0",
     "@wordpress/core-data": "^6.10.0",
     "@wordpress/editor": "^13.10.0",
     "@wordpress/server-side-render": "^4.10.0"

@@ -43,7 +43,7 @@
     "@wordpress/components": "^24.0.0",
     "@wordpress/core-data": "^6.10.0",
     "@wordpress/editor": "^13.10.0",
-    "@wordpress/server-side-render": "^4.10.0"
+    "@wordpress/server-side-render": "^4.12.0"
   },
   "lint-staged": {
     "*.{js,jsx}": "wp-scripts lint-js --fix",

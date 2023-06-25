@@ -35,7 +35,7 @@
     "@wordpress/blocks": "^12.7.0",
     "@wordpress/data": "^9.0.0",
     "@wordpress/i18n": "^4.30.0",
-    "@wordpress/scripts": "^26.1.0",
+    "@wordpress/scripts": "^26.6.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "semantic-release": "^21.0.5"

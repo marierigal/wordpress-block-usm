@@ -3770,17 +3770,10 @@
     globals "^13.12.0"
     requireindex "^1.2.0"
 
-"@wordpress/hooks@^3.30.0":
-  version "3.30.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-3.30.0.tgz#f4d4b6eccab6c5c6ede518381bc81585fc76258b"
-  integrity sha512-cvM5OWMQx0D2+wxvsTCI68LXy4cHz1Db97LliiQ+KprSBmYRG5Uy2PqtPv1sMlK8IOypKOlzmG5H5V1CwBN44A==
-  dependencies:
-    "@babel/runtime" "^7.16.0"
-
-"@wordpress/hooks@^3.33.0":
-  version "3.33.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-3.33.0.tgz#fa2612b24915e93a13665d605810b71b9048654e"
-  integrity sha512-Fwp67gbEeSTYx/eLHiLl3tKO1SCjBISRvEJn0LEbgTuz0l92TEb46jCymUOzaHAZOxeJLH9LoM6HJA5Tvg1L2Q==
+"@wordpress/hooks@^3.30.0", "@wordpress/hooks@^3.33.0", "@wordpress/hooks@^3.36.0":
+  version "3.36.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/hooks/-/hooks-3.36.0.tgz#4a89aa3500e10106265a024e99647597cd4e9755"
+  integrity sha512-1GZcDPXaCBjdWHJEy7SGSGXdikL6+ErAKvLb9CFbliyiEMR1FIoiNQD9IchmnDxBZo68mwajyz6dco9I2BAwDg==
   dependencies:
     "@babel/runtime" "^7.16.0"
 
@@ -3798,27 +3791,15 @@
   dependencies:
     "@babel/runtime" "^7.16.0"
 
-"@wordpress/i18n@^4.30.0":
-  version "4.30.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-4.30.0.tgz#52f442c5a56b6b92fde1fe989e5bebacf685b054"
-  integrity sha512-vIntwrTBSU2MXOBlpyFntPgimHP+RW+k7/Y00BMPL+xoxPr7J7sXX/GNoYlH1BNsAo7XOi5AY5FrUnQ7ZIYdtQ==
+"@wordpress/i18n@^4.30.0", "@wordpress/i18n@^4.33.0", "@wordpress/i18n@^4.36.0":
+  version "4.36.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-4.36.0.tgz#0d635dd16d6ada8b080c24830ec75868b38ab448"
+  integrity sha512-UXjosLMb1v8XMqBeCBTXZriwA7H1DouhpqST1yK3uAqGEIsdlSfNH2JhbjWXWPMDLm+PYnhKiqg30qxv3P83qg==
   dependencies:
     "@babel/runtime" "^7.16.0"
-    "@wordpress/hooks" "^3.30.0"
+    "@wordpress/hooks" "^3.36.0"
     gettext-parser "^1.3.1"
-    memize "^1.1.0"
-    sprintf-js "^1.1.1"
-    tannin "^1.2.0"
-
-"@wordpress/i18n@^4.33.0":
-  version "4.33.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/i18n/-/i18n-4.33.0.tgz#d2fded528d90c2ea391eee708ea9562f97bd0334"
-  integrity sha512-VbdZEDM/g9Yau9hzgoyjXNvRu5FwpMOSt2H4+u3P5izI5IxHXZRvCa4GSRY4NOCPLRfZMAC9jN4xaceYrl1seA==
-  dependencies:
-    "@babel/runtime" "^7.16.0"
-    "@wordpress/hooks" "^3.33.0"
-    gettext-parser "^1.3.1"
-    memize "^1.1.0"
+    memize "^2.1.0"
     sprintf-js "^1.1.1"
     tannin "^1.2.0"
 
@@ -9548,6 +9529,11 @@ memize@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/memize/-/memize-1.1.0.tgz#4a5a684ac6992a13b1299043f3e49b1af6a0b0d3"
   integrity sha512-K4FcPETOMTwe7KL2LK0orMhpOmWD2wRGwWWpbZy0fyArwsyIKR8YJVz8+efBAh3BO4zPqlSICu4vsLTRRqtFAg==
+
+memize@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/memize/-/memize-2.1.0.tgz#6ddd4717887d94825748149ece00d04cf868ce0d"
+  integrity sha512-yywVJy8ctVlN5lNPxsep5urnZ6TTclwPEyigM9M3Bi8vseJBOfqNrGWN/r8NzuIt3PovM323W04blJfGQfQSVg==
 
 meow@^6.1.1:
   version "6.1.1"

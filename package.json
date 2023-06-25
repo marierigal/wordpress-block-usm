@@ -44,7 +44,9 @@
     "@wordpress/components": "^25.1.0",
     "@wordpress/core-data": "^6.12.0",
     "@wordpress/editor": "^13.12.0",
-    "@wordpress/server-side-render": "^4.12.0"
+    "@wordpress/element": "^5.13.0",
+    "@wordpress/server-side-render": "^4.12.0",
+    "lodash.debounce": "^4.0.8"
   },
   "lint-staged": {
     "*.{js,jsx}": "wp-scripts lint-js --fix",

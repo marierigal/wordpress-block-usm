@@ -35,11 +35,11 @@ add_action( 'init', 'usmb_load_textdomain' );
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function usmb_register_blocks() {
-	if ( function_exists( 'wp_set_script_translations' ) ) {
+ if ( function_exists( 'wp_set_script_translations' ) ) {
     /**
      * Passes translations to JavaScript.
      */
-		wp_set_script_translations( 'usmb-domain-js', 'usmb', plugin_dir_path( __FILE__ ) . 'languages' );
-	}
+    wp_set_script_translations( 'usmb-domain-js', 'usmb', plugin_dir_path( __FILE__ ) . 'languages' );
+  }
 }
 add_action( 'init', 'usmb_register_blocks' );

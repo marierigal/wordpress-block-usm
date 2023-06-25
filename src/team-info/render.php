@@ -9,20 +9,33 @@
  * @package gutenberg-examples
  */
 
-$icon = isset($attributes['icon']) ? wp_kses_post($attributes['icon']) : '';
-$title = isset($attributes['title']) ? wp_kses_post($attributes['title']) : '';
-$content = isset($attributes['content']) ? wp_kses_post($attributes['content']) : '';
+  $icon = isset($attributes['icon']) ? wp_kses_post($attributes['icon']) : '';
+  $iconStyle = isset($attributes['iconStyle']) ? $attributes['iconStyle'] : '';
+  $title = isset($attributes['title']) ? wp_kses_post($attributes['title']) : '';
+  $content = isset($attributes['content']) ? wp_kses_post($attributes['content']) : '';
+  $isList = isset($attributes['isList']) ? $attributes['isList'] : false;
 ?>
 <div <?= wp_kses_data(get_block_wrapper_attributes()); ?>>
   <div class="icon-wrapper">
-    <span className="icon dashicons dashicons-<?= $icon ?>"></span>
+    <i class="icon <?= $iconStyle ?> fa-<?= $icon ?>"></i>
   </div>
+
   <div class="content-wrapper">
-    <h3 class="title">
-      <?= $title; ?>
-    </h3>
-    <ul class="content">
-      <?= $content; ?>
+    <h3 class="title"><?= $title; ?></h3>
+
+    <?php if ($isList): ?>
+      <ul class="content">
+    <?php else: ?>
+      <div class="content">
+    <?php endif ?>
+
+    <?= $content; ?>
+
+    <?php if ($isList): ?>
+      </ul>
+    <?php else: ?>
+      </div>
+    <?php endif ?>
     </ul>
   </div>
 </div>

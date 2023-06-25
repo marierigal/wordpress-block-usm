@@ -1,20 +1,33 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "usmb/team-info",
-  "title": "Informations de l'équipe",
+  "icon": "info",
+  "title": "Block équipe",
   "description": "Affiche les informations de l'équipe",
   "category": "text",
   "supports": {
     "html": false
   },
   "attributes": {
+    "isEditable": {
+      "type": "boolean",
+      "default": false
+    },
+    "isList": {
+      "type": "boolean",
+      "default": false
+    },
     "title": {
       "type": "string"
     },
     "icon": {
       "type": "string"
+    },
+    "iconStyle": {
+      "type": "string",
+      "default": "fas"
     },
     "content": {
       "type": "string"
@@ -22,21 +35,32 @@
   },
   "variations": [
     {
+      "name": "usmb/team-info/custom",
+      "icon": "info",
+      "title": "Informations",
+      "description": "Informations personnalisées",
+      "attributes": {
+        "icon": "circle-info",
+        "isEditable": true
+      },
+      "isDefault": true
+    },
+    {
       "name": "usmb/team-info/referents",
       "icon": "star-filled",
       "title": "Référents",
-      "description": "Liste des référents",
+      "description": "Référents de l'équipe",
       "attributes": {
         "title": "Référents",
-        "icon": "star-filled"
-      },
-      "isDefault": true
+        "icon": "star",
+        "isList": true
+      }
     },
     {
       "name": "usmb/team-info/trainings",
       "icon": "flag",
       "title": "Entrainements",
-      "description": "Liste des entrainements",
+      "description": "Entrainements de l'équipe",
       "attributes": {
         "title": "Entrainements",
         "icon": "flag"
@@ -46,10 +70,10 @@
       "name": "usmb/team-info/contacts",
       "icon": "admin-links",
       "title": "Contact",
-      "description": "Liste des contacts",
+      "description": "Contacts de l'équipe",
       "attributes": {
         "title": "Contact",
-        "icon": "admin-links"
+        "icon": "at"
       }
     }
   ],

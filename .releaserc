@@ -1,0 +1,40 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "angular",
+      "releaseRules": [
+        {"type": "docs", "release": "patch"},
+        {"type": "chore", "scope":  "deps", "release": "patch"},
+        {"type": "perf", "release": "patch"}
+      ],
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+      }
+    }],
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    ["@google/semantic-release-replace-plugin", {
+      "replacements": [
+        {
+          "files": ["wordpress-block-usm.php"],
+          "from": "Version:(\\s+).*",
+          "to": "Version:$1${nextRelease.version}"
+        },
+        {
+          "files": ["package.json"],
+          "from": "\"version\": \".*\"",
+          "to": "\"version\": \"${nextRelease.version}\""
+        }
+      ]
+    }],
+    ["@semantic-release/git", {
+      "assets": ["CHANGELOG.md", "package.json", "wordpress-block-usm.php"]
+    }],
+    ["@semantic-release/github", {
+      "assets": [
+        {"path": "*.zip", "name": "block-usm_${nextRelease.gitTag}.zip", "label": "Wordpress Plugin ${nextRelease.gitTag}"}
+      ]
+    }]
+  ]
+}

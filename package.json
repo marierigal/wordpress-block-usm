@@ -37,7 +37,7 @@
     "@wordpress/i18n": "^4.36.0",
     "@wordpress/scripts": "^26.6.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "^13.2.3",
     "semantic-release": "^21.0.5"
   },
   "dependencies": {

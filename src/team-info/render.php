@@ -16,17 +16,17 @@
   $isList = isset($attributes['isList']) ? $attributes['isList'] : false;
 ?>
 <div <?= wp_kses_data(get_block_wrapper_attributes()); ?>>
-  <div class="icon-wrapper">
-    <i class="icon <?= $iconStyle ?> fa-<?= $icon ?>"></i>
+  <div class="usmb-team-info__icon-wrapper">
+    <i class="usmb-team-info__icon-wrapper__icon <?= $iconStyle ?> fa-<?= $icon ?>"></i>
   </div>
 
-  <div class="content-wrapper">
-    <h3 class="title"><?= $title; ?></h3>
+  <div class="usmb-team-info__content-wrapper">
+    <h3 class="usmb-team-info__content-wrapper__title"><?= $title; ?></h3>
 
     <?php if ($isList): ?>
-      <ul class="content">
+      <ul class="usmb-team-info__content-wrapper__content">
     <?php else: ?>
-      <div class="content">
+      <div class="usmb-team-info__content-wrapper__content">
     <?php endif ?>
 
     <?= $content; ?>

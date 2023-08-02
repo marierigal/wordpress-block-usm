@@ -60,13 +60,13 @@ export const IconSearchModal = ( { onClose, onSave } ) => {
 
   return (
     <Modal
-      title="Choisir une icône"
+      title={ 'Choisir une icône' }
       onRequestClose={ onClose }
       style={ { width: '100%', maxWidth: 600 } }
     >
       <SearchControl value={ searchInput } onChange={ setSearchInput } onKeyDown={ searchIcons } />
 
-      { searchInput ? (
+      { searchInput && (
         <Flex style={ { justifyContent: 'flex-start', flexWrap: 'wrap', gap: 8 } }>
           { foundIcons.map( icon => (
             <div
@@ -89,10 +89,8 @@ export const IconSearchModal = ( { onClose, onSave } ) => {
             >
               <i className={ `${ icon.style } fa-${ icon.id } fa-2x` } title={ icon.label } />
             </div>
-          ) ) || 'Aucune icône trouvée' }
+          ) ) || <>Aucune icône trouvée</> }
         </Flex>
-      ) : (
-        <p>Veuillez saisir un terme de recherche</p>
       ) }
 
       <hr />
@@ -118,11 +116,11 @@ export const IconSearchModal = ( { onClose, onSave } ) => {
         ) }
 
         <Button variant="secondary" onClick={ onClose }>
-          Annuler
+          { 'Annuler' }
         </Button>
 
         <Button variant="primary" onClick={ onValidate } disabled={ ! selectedIcon }>
-          Valider
+          { 'Valider' }
         </Button>
       </Flex>
     </Modal>

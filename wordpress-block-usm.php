@@ -6,6 +6,7 @@
  * Requires PHP:      7.0
  * Version:           2.0.0
  * Author:            Marie Rigal
+ * Author URI:        https://github.com/marierigal
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       usmb
@@ -43,3 +44,19 @@ function usmb_register_blocks() {
   }
 }
 add_action( 'init', 'usmb_register_blocks' );
+
+// Add inline CSS in the admin head with the style tag
+function usmb_admin_styles() {
+    echo '<style type="text/css" id="usmp_admin_styles">
+:root {
+  --white: #ffffff;
+  --light: #9aa2a8;
+  --dark: #1d1d1c;
+  --primary: #52ae32;
+  --secondary: #2e509e;
+  --tertiary: #fbcb00;
+  --tertiary-dark: #cc902e;
+}
+</style>';
+}
+add_action( 'admin_head', 'usmb_admin_styles' );

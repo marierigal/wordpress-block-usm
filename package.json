@@ -12,7 +12,6 @@
   "main": "build/index.js",
   "scripts": {
     "prepare": "husky install",
-    "prebuild": "rm -rf build",
     "build": "wp-scripts build --webpack-copy-php",
     "format": "wp-scripts format",
     "lint": "yarn lint:css && yarn lint:js",
@@ -20,7 +19,6 @@
     "lint:js": "wp-scripts lint-js",
     "packages-update": "wp-scripts packages-update",
     "plugin-zip": "wp-scripts plugin-zip",
-    "prestart": "rm -rf build",
     "start": "wp-scripts start --webpack-copy-php",
     "i18n:update": "wp i18n make-pot . languages/usm-block.pot",
     "i18n:json": "wp i18n make-json languages --no-purge --pretty-print"

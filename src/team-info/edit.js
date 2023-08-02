@@ -38,33 +38,33 @@ export const edit = ( {
       </InspectorControls>
 
       <div
-        className="icon-wrapper"
+        className="usmb-team-info__icon-wrapper"
         onClick={ isEditable && openIconModal }
         role="button"
         tabIndex={ 0 }
         onKeyDown // a11y requirement
       >
         <i
-          className={ `icon ${ iconStyle } fa-${ icon }` }
+          className={ `usmb-team-info__icon-wrapper__icon ${ iconStyle } fa-${ icon }` }
           style={ { cursor: isEditable ? 'pointer' : 'inherit' } }
         ></i>
       </div>
 
-      <div className="content-wrapper">
+      <div className="usmb-team-info__content-wrapper">
         { isEditable ? (
           <RichText
-            className="title"
+            className="usmb-team-info__content-wrapper__title"
             value={ title }
             onChange={ value => onChangeAttribute( 'title', value ) }
             placeholder="Titre"
             tagName="h3"
           />
         ) : (
-          <h3 className="title">{ title }</h3>
+          <h3 className="usmb-team-info__content-wrapper__title">{ title }</h3>
         ) }
 
         <RichText
-          className="content"
+          className="usmb-team-info__content-wrapper__content"
           value={ content }
           onChange={ value => onChangeAttribute( 'content', value ) }
           placeholder="Contenu"

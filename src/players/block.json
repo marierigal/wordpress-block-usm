@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "version": "1.0.0",
+  "name": "usmb/players",
+  "icon": "id",
+  "title": "Joueurs",
+  "description": "Affiche la liste des joueurs",
+  "category": "text",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "first-row",
+        "second-row",
+        "third-row",
+        "scrum-half",
+        "fly-half",
+        "centre",
+        "winger",
+        "full-back",
+        "staff"
+      ]
+    }
+  },
+  "textdomain": "usmb",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

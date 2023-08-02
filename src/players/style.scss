@@ -1,0 +1,102 @@
+.wp-block-usmb-players {
+  .usmb-players {
+    &__title {
+      display: flex;
+      align-items: center;
+      height: 48px;
+    }
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 16px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      &__player {
+        position: relative;
+        border-radius: 8px;
+        width: 200px;
+        overflow: hidden;
+
+        &__thumbnail {
+          height: 280px;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        &__info {
+          position: absolute;
+          left: 0;
+          top: calc(100% - 64px);
+          height: 100%;
+          width: 100%;
+          background-color: var(--dark);
+          padding: 8px 16px;
+          color: var(--white);
+          transition:
+            200ms ease-in-out top,
+            200ms ease-in-out background-color,
+            200ms ease-in-out padding;
+
+          &__name {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--white);
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+
+          &__position {
+            margin: 0;
+            font-size: 0.8em;
+            text-transform: uppercase;
+          }
+
+          &__age,
+          &__body,
+          &__history {
+            font-size: 0.8em;
+          }
+
+          &__age,
+          &__body {
+            margin: 0;
+            text-transform: uppercase;
+
+            &__label {
+              font-size: 0.8em;
+            }
+          }
+
+          &__age {
+            font-size: 1.1em;
+          }
+
+          &__separator {
+            margin: 8px 0 !important;
+            width: 50% !important;
+          }
+        }
+
+        &:hover {
+          .usmb-players__list__player__info {
+            top: 0;
+            background-color: transparentize(#1d1d1c, 0.2);
+            padding: 16px;
+
+            &__name {
+              white-space: initial;
+              text-overflow: initial;
+              overflow: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+}

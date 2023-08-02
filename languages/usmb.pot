@@ -1,0 +1,209 @@
+# Copyright (C) 2023 Marie Rigal
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: USM Plugin blocks 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-block-usm\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-02T15:37:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: usmb\n"
+
+#. Plugin Name of the plugin
+msgid "USM Plugin blocks"
+msgstr ""
+
+#. Description of the plugin
+msgid "Custom blocks for USM website"
+msgstr ""
+
+#. Author of the plugin
+msgid "Marie Rigal"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/marierigal"
+msgstr ""
+
+#: build/config/constants.php:12
+#: build/players/constants.php:12
+#: build/sponsors/index.php:36
+msgid "First row"
+msgstr ""
+
+#: build/config/constants.php:13
+#: build/players/constants.php:13
+#: build/sponsors/index.php:38
+msgid "Second row"
+msgstr ""
+
+#: build/config/constants.php:14
+#: build/players/constants.php:14
+#: build/sponsors/index.php:40
+msgid "Third row"
+msgstr ""
+
+#: build/config/constants.php:15
+#: build/players/constants.php:15
+#: build/sponsors/index.php:42
+msgid "Scrum half"
+msgstr ""
+
+#: build/config/constants.php:16
+#: build/players/constants.php:16
+#: build/sponsors/index.php:44
+msgid "Fly half"
+msgstr ""
+
+#: build/config/constants.php:17
+#: build/players/constants.php:17
+#: build/sponsors/index.php:46
+msgid "Centre"
+msgstr ""
+
+#: build/config/constants.php:18
+#: build/players/constants.php:18
+#: build/sponsors/index.php:48
+msgid "Winger"
+msgstr ""
+
+#: build/config/constants.php:19
+#: build/players/constants.php:19
+#: build/sponsors/index.php:50
+msgid "Full back"
+msgstr ""
+
+#: build/config/constants.php:20
+#: build/players/constants.php:20
+#: build/sponsors/index.php:60
+msgid "Staff"
+msgstr ""
+
+#: build/players/render.php:58
+#: build/sponsors/render.php:76
+#: src/players/render.php:58
+msgid "years"
+msgstr ""
+
+#: build/sponsors/index.php:52
+msgid "Prop"
+msgstr ""
+
+#: build/sponsors/index.php:54
+msgid "Hooker"
+msgstr ""
+
+#: build/sponsors/index.php:56
+msgid "Second rower"
+msgstr ""
+
+#: build/sponsors/index.php:58
+msgid "Flanker"
+msgstr ""
+
+#: build/sponsors/index.php:62
+msgid "Manager"
+msgstr ""
+
+#: build/sponsors/index.php:64
+msgid "Forwards coach"
+msgstr ""
+
+#: build/sponsors/index.php:66
+msgid "Backs coach"
+msgstr ""
+
+#: build/sponsors/index.php:68
+msgid "Fitness trainer"
+msgstr ""
+
+#: build/sponsors/index.php:70
+msgid "Healer"
+msgstr ""
+
+#: build/players/block.json
+#: src/players/block.json
+msgctxt "block title"
+msgid "Joueurs"
+msgstr ""
+
+#: build/players/block.json
+#: src/players/block.json
+msgctxt "block description"
+msgid "Affiche la liste des joueurs"
+msgstr ""
+
+#: build/sponsors/block.json
+msgctxt "block title"
+msgid "Sponsors"
+msgstr ""
+
+#: build/sponsors/block.json
+msgctxt "block description"
+msgid "Affiche la liste des sponsors"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block title"
+msgid "Block équipe"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block description"
+msgid "Affiche les informations de l'équipe"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation title"
+msgid "Informations"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation description"
+msgid "Informations personnalisées"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation title"
+msgid "Référents"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation description"
+msgid "Référents de l'équipe"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation title"
+msgid "Entrainements"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation description"
+msgid "Entrainements de l'équipe"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation title"
+msgid "Contact"
+msgstr ""
+
+#: build/team-info/block.json
+#: src/team-info/block.json
+msgctxt "block variation description"
+msgid "Contacts de l'équipe"
+msgstr ""

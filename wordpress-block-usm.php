@@ -4,7 +4,7 @@
  * Description:       Custom blocks for USM website
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           2.0.0
+ * Version:           2.1.0
  * Author:            Marie Rigal
  * Author URI:        https://github.com/marierigal
  * License:           GPL-2.0-or-later

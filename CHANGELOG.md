@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/marierigal/wordpress-block-usm/compare/v2.0.0...v2.1.0) (2023-08-02)
+
+
+### Features
+
+* add players block ([f526951](https://github.com/marierigal/wordpress-block-usm/commit/f526951f01c10752ef190ff8f57eac03fdec76d5))
+* update team-info block ([d2079bc](https://github.com/marierigal/wordpress-block-usm/commit/d2079bc3de80d84d8fdd3cc0db5977cbfa706a85))
+
 # [2.0.0](https://github.com/marierigal/wordpress-block-usm/compare/v1.0.0...v2.0.0) (2023-06-25)
 
 

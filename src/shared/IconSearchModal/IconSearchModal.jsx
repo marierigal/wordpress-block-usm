@@ -1,5 +1,6 @@
 import { Button, Flex, Modal, SearchControl } from '@wordpress/components';
 import { useState as wpUseState } from '@wordpress/element';
+import { __ } from '@wordpress/i18n';
 import debounce from 'lodash.debounce';
 
 export const IconSearchModal = ( { onClose, onSave } ) => {
@@ -60,7 +61,7 @@ export const IconSearchModal = ( { onClose, onSave } ) => {
 
   return (
     <Modal
-      title={ 'Choisir une icône' }
+      title={ __( 'Choisir une icône', 'usmb' ) }
       onRequestClose={ onClose }
       style={ { width: '100%', maxWidth: 600 } }
     >
@@ -89,7 +90,7 @@ export const IconSearchModal = ( { onClose, onSave } ) => {
             >
               <i className={ `${ icon.style } fa-${ icon.id } fa-2x` } title={ icon.label } />
             </div>
-          ) ) || <>Aucune icône trouvée</> }
+          ) ) || __( 'Aucune icône trouvée', 'usmb' ) }
         </Flex>
       ) }
 
@@ -116,11 +117,11 @@ export const IconSearchModal = ( { onClose, onSave } ) => {
         ) }
 
         <Button variant="secondary" onClick={ onClose }>
-          { 'Annuler' }
+          { __( 'Annuler', 'usmb' ) }
         </Button>
 
         <Button variant="primary" onClick={ onValidate } disabled={ ! selectedIcon }>
-          { 'Valider' }
+          { __( 'Valider', 'usmb' ) }
         </Button>
       </Flex>
     </Modal>

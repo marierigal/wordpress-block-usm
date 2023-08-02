@@ -1,6 +1,7 @@
 import { InspectorControls, RichText, useBlockProps as blockProps } from '@wordpress/block-editor';
 import { Panel, PanelBody, PanelRow, ToggleControl } from '@wordpress/components';
 import { useState as wpUseState } from '@wordpress/element';
+import { __ } from '@wordpress/i18n';
 import { IconSearchModal } from '../shared/IconSearchModal/IconSearchModal';
 
 export const edit = ( {
@@ -23,12 +24,11 @@ export const edit = ( {
   return (
     <div { ...blockProps() }>
       <InspectorControls key="settings">
-        <Panel header="Style">
+        <Panel header={ __( 'Style', 'usmb' ) }>
           <PanelBody>
             <PanelRow>
               <ToggleControl
-                label="Afficher comme liste"
-                help=""
+                label={ __( 'Afficher comme liste', 'usmb' ) }
                 checked={ isList }
                 onChange={ value => onChangeAttribute( 'isList', value ) }
               />
@@ -56,7 +56,7 @@ export const edit = ( {
             className="usmb-team-info__content-wrapper__title"
             value={ title }
             onChange={ value => onChangeAttribute( 'title', value ) }
-            placeholder="Titre"
+            placeholder={ __( 'Titre', 'usmb' ) }
             tagName="h3"
           />
         ) : (
@@ -67,7 +67,7 @@ export const edit = ( {
           className="usmb-team-info__content-wrapper__content"
           value={ content }
           onChange={ value => onChangeAttribute( 'content', value ) }
-          placeholder="Contenu"
+          placeholder={ __( 'Contenu', 'usmb' ) }
           tagName={ isList ? 'ul' : 'p' }
           multiline={ isList ? 'li' : false }
         />

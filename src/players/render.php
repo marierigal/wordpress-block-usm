@@ -55,7 +55,7 @@ if (array_key_exists($category, USM_PLAYER_CATEGORY_POSITION_MAP)) :
         <hr class="usmb-players__list__player__info__separator"/>
 
         <p class="usmb-players__list__player__info__age">
-          <?= $age ?> <span class="usmb-players__list__player__info__age__label"><?= __('years', 'usmb') ?></span>
+          <?= $age ?> <span class="usmb-players__list__player__info__age__label"><?= __('ans', 'usmb') ?></span>
         </p>
 
         <p class="usmb-players__list__player__info__body">

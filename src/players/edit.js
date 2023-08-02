@@ -1,5 +1,6 @@
 import { InspectorControls, useBlockProps as blockProps } from '@wordpress/block-editor';
 import { Panel, PanelBody, PanelRow, SelectControl } from '@wordpress/components';
+import { __ } from '@wordpress/i18n';
 import ServerSideRender from '@wordpress/server-side-render';
 import { CATEGORIES } from './CATEGORIES';
 
@@ -14,23 +15,23 @@ export const edit = ( { attributes, setAttributes } ) => {
   const usmbPlayersSlugToLabel = slug => {
     switch ( slug ) {
       case 'first-row':
-        return 'Première ligne';
+        return __( 'Première ligne', 'usm-plugin' );
       case 'second-row':
-        return 'Deuxième ligne';
+        return __( 'Deuxième ligne', 'usm-plugin' );
       case 'third-row':
-        return 'Troisième ligne';
+        return __( 'Troisième ligne', 'usm-plugin' );
       case 'scrum-half':
-        return 'Demi de mêlée';
+        return __( 'Demi de mêlée', 'usm-plugin' );
       case 'fly-half':
-        return 'Demi d’ouverture';
+        return __( 'Demi d’ouverture', 'usm-plugin' );
       case 'centre':
-        return 'Centre';
+        return __( 'Centre', 'usm-plugin' );
       case 'winger':
-        return 'Ailier';
+        return __( 'Ailier', 'usm-plugin' );
       case 'full-back':
-        return 'Arrière';
+        return __( 'Arrière', 'usm-plugin' );
       case 'staff':
-        return 'Staff';
+        return __( 'Staff', 'usm-plugin' );
       default:
         return '';
     }
@@ -39,11 +40,11 @@ export const edit = ( { attributes, setAttributes } ) => {
   return (
     <div { ...blockProps() }>
       <InspectorControls key="settings">
-        <Panel header="Contenu">
+        <Panel header={ __( 'Contenu', 'usmb' ) }>
           <PanelBody>
             <PanelRow>
               <SelectControl
-                label="Catégorie"
+                label={ __( 'Catégorie', 'usmb' ) }
                 value={ category }
                 options={ [
                   { label: '...', value: '' },
@@ -64,7 +65,7 @@ export const edit = ( { attributes, setAttributes } ) => {
           <ServerSideRender block="usmb/players" attributes={ attributes } />
         </>
       ) : (
-        <div>Choisir une catégorie</div>
+        <div>{ __( 'Choisir une catégorie', 'usmb' ) }</div>
       ) }
     </div>
   );

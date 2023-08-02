@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: USM Plugin blocks 2.0.0\n"
+"Project-Id-Version: USM Plugin blocks 2.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wordpress-block-usm\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-08-02T15:37:06+00:00\n"
+"POT-Creation-Date: 2023-08-02T17:05:00+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: usmb\n"
@@ -19,7 +19,7 @@ msgid "USM Plugin blocks"
 msgstr ""
 
 #. Description of the plugin
-msgid "Custom blocks for USM website"
+msgid "Blocks personnalisés pour le site web USM"
 msgstr ""
 
 #. Author of the plugin
@@ -32,98 +32,115 @@ msgstr ""
 
 #: build/config/constants.php:12
 #: build/players/constants.php:12
-#: build/sponsors/index.php:36
 msgid "First row"
 msgstr ""
 
 #: build/config/constants.php:13
 #: build/players/constants.php:13
-#: build/sponsors/index.php:38
 msgid "Second row"
 msgstr ""
 
 #: build/config/constants.php:14
 #: build/players/constants.php:14
-#: build/sponsors/index.php:40
 msgid "Third row"
 msgstr ""
 
 #: build/config/constants.php:15
 #: build/players/constants.php:15
-#: build/sponsors/index.php:42
 msgid "Scrum half"
 msgstr ""
 
 #: build/config/constants.php:16
 #: build/players/constants.php:16
-#: build/sponsors/index.php:44
 msgid "Fly half"
 msgstr ""
 
 #: build/config/constants.php:17
 #: build/players/constants.php:17
-#: build/sponsors/index.php:46
 msgid "Centre"
 msgstr ""
 
 #: build/config/constants.php:18
 #: build/players/constants.php:18
-#: build/sponsors/index.php:48
 msgid "Winger"
 msgstr ""
 
 #: build/config/constants.php:19
 #: build/players/constants.php:19
-#: build/sponsors/index.php:50
 msgid "Full back"
 msgstr ""
 
 #: build/config/constants.php:20
 #: build/players/constants.php:20
-#: build/sponsors/index.php:60
 msgid "Staff"
 msgstr ""
 
 #: build/players/render.php:58
-#: build/sponsors/render.php:76
 #: src/players/render.php:58
-msgid "years"
+msgid "ans"
 msgstr ""
 
-#: build/sponsors/index.php:52
-msgid "Prop"
+#: build/players/index.js:90
+#: build/team-info/index.js:235
+#: src/players/edit.js:43
+#: src/team-info/edit.js:70
+#: build/players/index.js:47
+#: build/team-info/index.js:200
+msgid "Contenu"
 msgstr ""
 
-#: build/sponsors/index.php:54
-msgid "Hooker"
+#: build/players/index.js:92
+#: src/players/edit.js:47
+#: build/players/index.js:51
+msgid "Catégorie"
 msgstr ""
 
-#: build/sponsors/index.php:56
-msgid "Second rower"
+#: build/players/index.js:105
+#: src/players/edit.js:68
+#: build/players/index.js:72
+msgid "Choisir une catégorie"
 msgstr ""
 
-#: build/sponsors/index.php:58
-msgid "Flanker"
+#: build/team-info/index.js:82
+#: src/shared/IconSearchModal/IconSearchModal.jsx:64
+#: build/team-info/index.js:64
+msgid "Choisir une icône"
 msgstr ""
 
-#: build/sponsors/index.php:62
-msgid "Manager"
+#: build/team-info/index.js:118
+#: src/shared/IconSearchModal/IconSearchModal.jsx:93
+#: build/team-info/index.js:93
+msgid "Aucune icône trouvée"
 msgstr ""
 
-#: build/sponsors/index.php:64
-msgid "Forwards coach"
+#: build/team-info/index.js:139
+#: src/shared/IconSearchModal/IconSearchModal.jsx:120
+#: build/team-info/index.js:120
+msgid "Annuler"
 msgstr ""
 
-#: build/sponsors/index.php:66
-msgid "Backs coach"
+#: build/team-info/index.js:143
+#: src/shared/IconSearchModal/IconSearchModal.jsx:124
+#: build/team-info/index.js:124
+msgid "Valider"
 msgstr ""
 
-#: build/sponsors/index.php:68
-msgid "Fitness trainer"
+#: build/team-info/index.js:205
+#: src/team-info/edit.js:27
+#: build/team-info/index.js:157
+msgid "Style"
 msgstr ""
 
-#: build/sponsors/index.php:70
-msgid "Healer"
+#: build/team-info/index.js:207
+#: src/team-info/edit.js:31
+#: build/team-info/index.js:161
+msgid "Afficher comme liste"
+msgstr ""
+
+#: build/team-info/index.js:227
+#: src/team-info/edit.js:59
+#: build/team-info/index.js:189
+msgid "Titre"
 msgstr ""
 
 #: build/players/block.json

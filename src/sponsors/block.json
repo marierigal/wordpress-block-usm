@@ -3,7 +3,7 @@
   "apiVersion": 2,
   "version": "1.0.0",
   "name": "usmb/sponsors",
-  "icon": "businessperson",
+  "icon": "money-alt",
   "title": "Sponsors",
   "description": "Affiche la liste des sponsors",
   "category": "text",

@@ -48,3 +48,16 @@ function usmb_register_blocks() {
   }
 }
 add_action( 'init', 'usmb_register_blocks' );
+
+/**
+ * Add a custom block category
+ */
+function usmb_custom_block_category( $categories ) {
+  array_unshift( $categories, array(
+    'slug'  => 'usm',
+    'title' => 'US Montmélian'
+  ) );
+
+  return $categories;
+}
+add_filter( 'block_categories_all' , 'usmb_custom_block_category', 10, 2 );

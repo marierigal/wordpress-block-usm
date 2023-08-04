@@ -6,7 +6,7 @@
   "icon": "groups",
   "title": "Joueurs",
   "description": "Affiche la liste des joueurs",
-  "category": "text",
+  "category": "usm",
   "supports": {
     "html": false
   },

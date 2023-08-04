@@ -6,7 +6,7 @@
   "icon": "info",
   "title": "Block équipe",
   "description": "Affiche les informations de l'équipe",
-  "category": "text",
+  "category": "usm",
   "supports": {
     "html": false
   },

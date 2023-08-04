@@ -6,7 +6,7 @@
   "icon": "money-alt",
   "title": "Sponsors",
   "description": "Affiche la liste des sponsors",
-  "category": "text",
+  "category": "usm",
   "supports": {
     "html": false
   },

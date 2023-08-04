@@ -1,7 +1,6 @@
 import { InspectorControls, useBlockProps as blockProps } from '@wordpress/block-editor';
 import { Panel, PanelBody, PanelRow, SelectControl } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
-import ServerSideRender from '@wordpress/server-side-render';
 import { CATEGORIES } from './CATEGORIES';
 
 export const edit = ( { attributes, setAttributes } ) => {
@@ -62,7 +61,12 @@ export const edit = ( { attributes, setAttributes } ) => {
 
       { category ? (
         <>
-          <ServerSideRender block="usmb/players" attributes={ attributes } />
+          <h3 className="usmb-players__title">{ usmbPlayersSlugToLabel( category ) }</h3>
+          <div className="usmb-players__skeleton">
+            <div className="usmb-players__skeleton__item" />
+            <div className="usmb-players__skeleton__item" />
+            <div className="usmb-players__skeleton__item" />
+          </div>
         </>
       ) : (
         <div>{ __( 'Choisir une catégorie', 'usmb' ) }</div>

@@ -98,5 +98,32 @@
         }
       }
     }
+
+    &__skeleton {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 16px;
+
+      &__item {
+        position: relative;
+        border-radius: 8px;
+        height: 300px;
+        width: 200px;
+        background-color: whitesmoke;
+        overflow: hidden;
+
+        &::after {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          height: 64px;
+          background-color: darkgray;
+          content: '';
+          z-index: 1;
+        }
+      }
+    }
   }
 }

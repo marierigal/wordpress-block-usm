@@ -43,6 +43,7 @@
         "icon": "circle-info",
         "isEditable": true
       },
+      "example": {},
       "isDefault": true
     },
     {
@@ -54,7 +55,8 @@
         "title": "Référents",
         "icon": "star",
         "isList": true
-      }
+      },
+      "example": {}
     },
     {
       "name": "usmb/team-info/trainings",
@@ -64,7 +66,8 @@
       "attributes": {
         "title": "Entrainements",
         "icon": "flag"
-      }
+      },
+      "example": {}
     },
     {
       "name": "usmb/team-info/contacts",
@@ -74,7 +77,8 @@
       "attributes": {
         "title": "Contact",
         "icon": "at"
-      }
+      },
+      "example": {}
     }
   ],
   "textdomain": "usmb",

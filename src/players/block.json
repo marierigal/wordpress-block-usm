@@ -26,6 +26,11 @@
       ]
     }
   },
+  "example": {
+    "attributes": {
+      "category": "first-row"
+    }
+  },
   "textdomain": "usmb",
   "editorScript": "file:./index.js",
   "style": "file:./style-index.css",

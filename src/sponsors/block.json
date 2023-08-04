@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "version": "1.0.0",
+  "name": "usmb/sponsors",
+  "icon": "businessperson",
+  "title": "Sponsors",
+  "description": "Affiche la liste des sponsors",
+  "category": "text",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "privilege",
+        "first-rower",
+        "second-rower",
+        "third-rower",
+        "centre",
+        "green-and-black"
+      ]
+    }
+  },
+  "textdomain": "usmb",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

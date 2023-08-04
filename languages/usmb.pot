@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-08-02T17:05:00+00:00\n"
+"POT-Creation-Date: 2023-08-04T15:34:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: usmb\n"
@@ -30,74 +30,43 @@ msgstr ""
 msgid "https://github.com/marierigal"
 msgstr ""
 
-#: build/config/constants.php:12
-#: build/players/constants.php:12
-msgid "First row"
-msgstr ""
-
-#: build/config/constants.php:13
-#: build/players/constants.php:13
-msgid "Second row"
-msgstr ""
-
-#: build/config/constants.php:14
-#: build/players/constants.php:14
-msgid "Third row"
-msgstr ""
-
-#: build/config/constants.php:15
-#: build/players/constants.php:15
-msgid "Scrum half"
-msgstr ""
-
-#: build/config/constants.php:16
-#: build/players/constants.php:16
-msgid "Fly half"
-msgstr ""
-
-#: build/config/constants.php:17
-#: build/players/constants.php:17
-msgid "Centre"
-msgstr ""
-
-#: build/config/constants.php:18
-#: build/players/constants.php:18
-msgid "Winger"
-msgstr ""
-
-#: build/config/constants.php:19
-#: build/players/constants.php:19
-msgid "Full back"
-msgstr ""
-
-#: build/config/constants.php:20
-#: build/players/constants.php:20
-msgid "Staff"
-msgstr ""
-
 #: build/players/render.php:58
 #: src/players/render.php:58
 msgid "ans"
 msgstr ""
 
+#: build/sponsors/render.php:55
+#: src/sponsors/render.php:55
+msgid "Aucun sponsor pour le moment."
+msgstr ""
+
 #: build/players/index.js:90
+#: build/sponsors/index.js:81
 #: build/team-info/index.js:235
 #: src/players/edit.js:43
+#: src/sponsors/edit.js:36
 #: src/team-info/edit.js:70
 #: build/players/index.js:47
+#: build/sponsors/index.js:40
 #: build/team-info/index.js:200
 msgid "Contenu"
 msgstr ""
 
 #: build/players/index.js:92
+#: build/sponsors/index.js:83
 #: src/players/edit.js:47
+#: src/sponsors/edit.js:40
 #: build/players/index.js:51
+#: build/sponsors/index.js:44
 msgid "Catégorie"
 msgstr ""
 
 #: build/players/index.js:105
+#: build/sponsors/index.js:97
 #: src/players/edit.js:68
+#: src/sponsors/edit.js:62
 #: build/players/index.js:72
+#: build/sponsors/index.js:66
 msgid "Choisir une catégorie"
 msgstr ""
 
@@ -156,11 +125,13 @@ msgid "Affiche la liste des joueurs"
 msgstr ""
 
 #: build/sponsors/block.json
+#: src/sponsors/block.json
 msgctxt "block title"
 msgid "Sponsors"
 msgstr ""
 
 #: build/sponsors/block.json
+#: src/sponsors/block.json
 msgctxt "block description"
 msgid "Affiche la liste des sponsors"
 msgstr ""

@@ -22,6 +22,7 @@ define( 'USMB_ASSETS_URL', plugin_dir_url( __FILE__ ) . 'assets/' );
  */
 include_once( plugin_dir_path( __FILE__ ) . 'build/team-info/index.php' );
 include_once( plugin_dir_path( __FILE__ ) . 'build/players/index.php' );
+include_once( plugin_dir_path( __FILE__ ) . 'build/sponsors/index.php' );
 
 /**
  * Load all translations for our plugin from the MO file.

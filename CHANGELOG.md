@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/marierigal/wordpress-block-usm/compare/v2.2.0...v2.2.1) (2023-08-04)
+
+
+### Bug Fixes
+
+* add assets folder to plugin zip ([7d263e7](https://github.com/marierigal/wordpress-block-usm/commit/7d263e722e36285af65fa8f40ed4366e796f9824))
+
 # [2.2.0](https://github.com/marierigal/wordpress-block-usm/compare/v2.1.0...v2.2.0) (2023-08-04)
 
 

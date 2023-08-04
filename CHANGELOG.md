@@ -1,3 +1,11 @@
+# [2.2.0](https://github.com/marierigal/wordpress-block-usm/compare/v2.1.0...v2.2.0) (2023-08-04)
+
+
+### Features
+
+* add sponsors block ([3bc16bf](https://github.com/marierigal/wordpress-block-usm/commit/3bc16bfe3d2fdbd634d8541a9b45915ac639eea7))
+* translate to french ([bb8d603](https://github.com/marierigal/wordpress-block-usm/commit/bb8d603c0b83a012d018ed1719a45f0d602445d9))
+
 # [2.1.0](https://github.com/marierigal/wordpress-block-usm/compare/v2.0.0...v2.1.0) (2023-08-02)
 
 

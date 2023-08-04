@@ -1,6 +1,6 @@
 {
   "name": "wordpress-block-usm",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Gutenberg custom blocks for USM",
   "author": "Marie Rigal",
   "repository": "https://github.com/marierigal/wordpress-block-usm",

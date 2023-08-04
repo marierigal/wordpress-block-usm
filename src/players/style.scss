@@ -33,9 +33,9 @@
           top: calc(100% - 64px);
           height: 100%;
           width: 100%;
-          background-color: var(--dark);
+          background-color: var(--color_footer_background);
           padding: 8px 16px;
-          color: var(--white);
+          color: var(--color_footer_text);
           transition:
             200ms ease-in-out top,
             200ms ease-in-out background-color,
@@ -45,7 +45,7 @@
             margin: 0;
             font-size: 16px;
             font-weight: 600;
-            color: var(--white);
+            color: var(--color_footer_text);
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;
@@ -86,7 +86,7 @@
         &:hover {
           .usmb-players__list__player__info {
             top: 0;
-            background-color: transparentize(#1d1d1c, 0.2);
+            background-color: transparentize(black, 0.2);
             padding: 16px;
 
             &__name {

@@ -50,11 +50,6 @@
         &-button {
           background: transparent;
 
-          /* icon color */
-          &-icon {
-            fill: var(--usmb-color-dark);
-          }
-
           /* hide disabled button */
           &:disabled {
             display: none;

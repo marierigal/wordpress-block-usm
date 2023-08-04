@@ -1,3 +1,22 @@
+# [3.0.0](https://github.com/marierigal/wordpress-block-usm/compare/v2.3.0...v3.0.0) (2023-08-04)
+
+
+### Bug Fixes
+
+* update players icon to match post type ([8ddce99](https://github.com/marierigal/wordpress-block-usm/commit/8ddce997d29bb981998965fd12127a34d8d3a50c))
+* update sponsors icon to match post type ([4420c6f](https://github.com/marierigal/wordpress-block-usm/commit/4420c6fe3d06979657341f2f238eb8c3054409cd))
+
+
+### Features
+
+* add custom block category ([c08a939](https://github.com/marierigal/wordpress-block-usm/commit/c08a939ab3bdada1fd8012f42fadaae9d3fef5a4))
+* add example preview to blocks ([a209dff](https://github.com/marierigal/wordpress-block-usm/commit/a209dff4bfbb24bb1da8b5f1f698b7cedc0021a8))
+
+
+### BREAKING CHANGES
+
+* Blocks are now under the USM category
+
 # [2.3.0](https://github.com/marierigal/wordpress-block-usm/compare/v2.2.1...v2.3.0) (2023-08-04)
 
 
